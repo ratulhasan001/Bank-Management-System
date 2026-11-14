@@ -1,4 +1,4 @@
-# Bank Management System (OOP)
+# Bank Management System
 
 A command-line bank simulation written in Python to practise object-oriented design. An `Admin` class models the bank (accounts, total balance, total loans, loan on/off switch) and an `Account` class models a customer account (balance, transactions, loans). A menu-driven loop in `main.py` lets an admin manage accounts and lets customers register, log in by account number and perform transactions. All data is kept in memory for the duration of a run.
 
@@ -25,7 +25,7 @@ A command-line bank simulation written in Python to practise object-oriented des
 ## Project structure
 
 ```
-bank-management-system-oop/
+Bank-Management-System/
 ├── account.py   # Account class: deposit, withdraw, transfer, loan, history
 ├── admin.py     # Admin class: the bank; account management and bank-wide totals
 └── main.py      # Interactive menu loop (entry point)
@@ -34,8 +34,8 @@ bank-management-system-oop/
 ## Getting started
 
 ```bash
-git clone https://github.com/ratulhasan001/bank-management-system-oop.git
-cd bank-management-system-oop
+git clone https://github.com/ratulhasan001/Bank-Management-System.git
+cd Bank-Management-System
 python3 main.py
 ```
 
